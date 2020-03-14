@@ -41,12 +41,21 @@ section img {
 }
 
 
-section:nth-child(1), section:nth-child(3){
+section:nth-child(1), section:nth-child(4){
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }  
 
-section:nth-child(2){
+section:nth-child(3){
   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.secParalax{
+  height: 250px;
+	background-image: url(../img/mexico.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+  
 }
 
 .contenedor-texto{
