@@ -93,3 +93,10 @@ section:nth-child(2){
   }
 
 }
+
+@media screen and (max-width:500px){
+  section img{
+    height: 25%;
+  }
+
+}
