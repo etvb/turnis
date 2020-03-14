@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Renta de carros y choferes</title>
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/estilos.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section id="sec1" data-aos="fade-right">
-    <div class="contenedor-texto" >
+  <section id="sec1">
+    <div class="contenedor-texto wow bounceInLeft" data-wow-offset="1" >
       <p class="titulo">TURNIS RENTAL A CAR</p>
       <h1>renta de carros y choferes </h1>
       <a href="tel:4441887652">44 41 88 76 52</a><br>
@@ -23,7 +24,7 @@
 
   <section id="sec2">
     <img src="./img/camino.svg" alt="">
-    <div class="contenedor-text" data-aos="zoom-in-right">
+    <div class="contenedor-text wow bounceInRight">
       <h2>EL MEJOR SERVICIO.</h2>
       <p>	Siempre llegamos a nuestro destino.</p>
       <a href="tel:4441887652">44 41 88 76 52</a><br>
@@ -32,7 +33,7 @@
   </section>
 
   <section id="sec3">
-    <div class="contenedor-text">
+    <div class="contenedor-text wow bounceInLeft" data-wow-offset="0">
       <h2>COMPROMISO Y EXCELENCIA</h2>
       <p>Vamos a donde nos necesiten.</p>
       <a href="tel:4441887652">44 41 88 76 52</a><br>
@@ -41,9 +42,9 @@
     <img src="./img/carro3.svg" alt="">
   </section>
   
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/wow.min.js"></script>
   <script>
-    AOS.init();
+    new WOW().init();
   </script>
 </body>
 </html>
